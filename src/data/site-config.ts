@@ -45,16 +45,12 @@ const siteConfig: SiteConfig = {
         {
             text: 'Terms',
             href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'Linkedin',
+            href: 'https://www.linkedin.com/in/kevin-j-mart%C3%ADnez-/'
         },
         {
             text: 'Instagram',
@@ -66,8 +62,8 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
+        title: 'Hi There and welcome!',
+        text: "Im **Kevin**, an economics student right now, and Im interested in economics research. \n What type of research? I dont know yet — Im keeping an open mind. I want to work at the central bank in my country. \n I write a blog here — essays and analysis.\n I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n Feel free to explore some of my coding endeavors on [GitHub](https://github.com/Kevin-J-Martinez), follow me on [Twitter/X](https://x.com/IncPersonales), or check out my [Instagram](https://www.instagram.com/keveeeeeeeeeeen/).\n For now, Im focused on studying economics through my remaining semesters while publishing opinion essays and analyses on a variety of topics. Most of my posts will be in Spanish, with the occasional one in English.",
         image: {
             src: hero,
             alt: 'A person sitting at a desk in front of a computer'
