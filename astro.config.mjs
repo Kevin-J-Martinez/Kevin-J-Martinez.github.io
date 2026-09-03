@@ -5,8 +5,7 @@ import { defineConfig } from 'astro/config';
 import siteConfig from './src/data/site-config';
 
 export default defineConfig({
-    site: 'https://kevin-j-martinez.github.io',
-    base: '/Kevin-J-Martinez',
+    site: siteConfig.website,
     vite: {
         plugins: [tailwindcss()]
     },
