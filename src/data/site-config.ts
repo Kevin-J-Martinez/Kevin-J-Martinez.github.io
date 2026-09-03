@@ -3,14 +3,14 @@ import hero from '../assets/images/hero.jpg';
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
-    website: 'https://example.com',
+    website: 'https://kevin-j-martinez.github.io/',
     avatar: {
         src: avatar,
         alt: 'Ethan Donovan'
     },
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Kevin Martinez',
+    subtitle: 'So far so good',
+    description: 'Im Kevin an economics student rigth now, im interesting on economics research, What type of research? Idk now, im waiting with open mind. I wanna work in the central bank in my country.',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
@@ -29,8 +29,8 @@ const siteConfig: SiteConfig = {
             href: '/blog'
         },
         {
-            text: 'Tags',
-            href: '/tags'
+            text: 'Github',
+            href: 'https://github.com/Kevin-J-Martinez'
         }
     ],
     footerNavLinks: [
