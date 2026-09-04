@@ -1,5 +1,5 @@
-import avatar from '../assets/images/avatar.jpg';
-import hero from '../assets/images/hero.jpg';
+import hero from '../assets/images/about.jpg';
+import avatar from '../assets/images/avatar.jpeg';
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
@@ -54,16 +54,16 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Instagram',
-            href: 'https://instagram.com/'
+            href: 'https://www.instagram.com/keveeeeeeeeeeen/'
         },
         {
             text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            href: 'https://x.com/IncPersonales'
         }
     ],
     hero: {
         title: 'Hi There and welcome!',
-        text: "Hey it's a pleasure, I'm **Kevin**, an economics student right now, and I'm interested in economics research. What type of research? I don't know yet — I'm keeping an open mind.\n\n I want to work at the central bank in my country. I love learning and research; I firmly believe they are engines for human evolution, and that whatever we build should never be built on nothing. I write a blog here — essays and analysis. For now, I'm focused on studying economics through my remaining semesters while publishing opinion essays and analyses on a variety of topics.\n Most of my posts will be in Spanish, with the occasional one in English.\n Feel free to explore some of my coding endeavors on [GitHub](https://github.com/Kevin-J-Martinez), follow me on [Twitter/X](https://x.com/IncPersonales), or check out my [Instagram](https://www.instagram.com/keveeeeeeeeeeen/).",
+        text: "Hey it's a pleasure, I'm **Kevin**, an economics student right now, and I'm interested in economics research. What type of research? I don't know yet — I'm keeping an open mind.\n\n I want to work at the central bank in my country. I love learning and research; I firmly believe they are engines for human evolution, and that whatever we build should never be built on nothing.\n\n I write a blog here — essays and analysis. For now, I'm focused on studying economics through my remaining semesters while publishing opinion essays and analyses on a variety of topics.\n Most of my posts will be in Spanish, with the occasional one in English.\n\n Feel free to explore some of my coding endeavors on [GitHub](https://github.com/Kevin-J-Martinez), follow me on [Twitter/X](https://x.com/IncPersonales), or check out my [Instagram](https://www.instagram.com/keveeeeeeeeeeen/).",
         image: {
             src: hero,
             alt: 'A person sitting at a desk in front of a computer'
