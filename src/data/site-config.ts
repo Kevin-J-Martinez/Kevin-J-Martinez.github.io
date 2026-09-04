@@ -53,17 +53,13 @@ const siteConfig: SiteConfig = {
             href: 'https://www.linkedin.com/in/kevin-j-mart%C3%ADnez-/'
         },
         {
-            text: 'Instagram',
-            href: 'https://www.instagram.com/keveeeeeeeeeeen/'
-        },
-        {
             text: 'X/Twitter',
             href: 'https://x.com/IncPersonales'
         }
     ],
     hero: {
         title: 'Hi There and welcome!',
-        text: "Hey it's a pleasure, I'm **Kevin**, an economics student right now, I'm interested in economics research, What type of research? I don't know yet — I'm keeping an open mind.\n\n I love learning and research for this reason I want to work at the central bank in my country; I firmly believe they are engines for human evolution (all researchers) , and that whatever we build should never be built on nothing.\n\n I write a blog here — essays and analysis. For now, I'm focused on studying economics through my remaining semesters while publishing opinion essays and analyses on a variety of topics.\n Most of my posts will be in Spanish, with the occasional one in English.\n\n Feel free to explore some of my coding endeavors on [GitHub](https://github.com/Kevin-J-Martinez), follow me on [Twitter/X](https://x.com/IncPersonales), or check out my [Instagram](https://www.instagram.com/keveeeeeeeeeeen/).",
+        text: "Hey it's a pleasure, I'm **Kevin**, an economics student right now, I'm interested in economics research, What type of research? I don't know yet — I'm keeping an open mind.\n\n I love learning and research for this reason I want to work at the central bank in my country; I firmly believe they are engines for human evolution (all researchers) , and that whatever we build should never be built on nothing.\n\n I write a blog here — essays and analysis. For now, I'm focused on studying economics through my remaining semesters while publishing opinion essays and analyses on a variety of topics.\n Most of my posts will be in Spanish, with the occasional one in English.\n\n Feel free to explore some of my coding endeavors on [GitHub](https://github.com/Kevin-J-Martinez), follow me on [Twitter/X](https://x.com/IncPersonales).",
         image: {
             src: hero,
             alt: 'A person sitting at a desk in front of a computer'
