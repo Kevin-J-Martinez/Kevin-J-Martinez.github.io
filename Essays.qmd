@@ -1,0 +1,8 @@
+---
+title: "Essays"
+
+listing:
+  contents: "posts/essay-*.qmd"
+  sort: date desc
+  type: default
+---

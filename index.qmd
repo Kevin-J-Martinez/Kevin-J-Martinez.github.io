@@ -1,10 +1,18 @@
 ---
 title: "Hi there and welcome!"
+image: avatar.jpg
+about: 
+    template: jolla
+    image-shape: round 
 ---
 
-Hey it's a pleasure, I'm **Kevin**, an economics student right now, I'm interested in economics research, What type of research? I don't know yet — I'm keeping an open mind.
+Hey it's a pleasure, I'm **Kevin**, an Economics student interested in research, data, and applied economics.
 
-I love learning and research for this reason I want to work at the central bank in my country; I firmly believe they are engines for human evolution (all researchers) , and that whatever we build should never be built on nothing.
+I use this website to document what I learn and the projects I work on throughout my studies. Here you will find economic analyses, data visualizations, essays, and research projects covering a variety of topics.
 
-I write a blog here — essays and analysis. For now, I'm focused on studying economics through my remaining semesters while publishing opinion essays and analyses on a variety of topics. Most of my posts will be in Spanish, with the occasional one in English. Feel free to explore some of my coding endeavors on [GitHub](https://github.com/Kevin-J-Martinez), follow me on [Twitter/X](https://x.com/IncPersonales).
+I am still exploring where my interests in economics will take me, so I am keeping an open mind and learning by doing.
+
+Explore my work, or learn more about me.
+
+For now, I'm focused on studying economics through my remaining semesters. Most of my posts will be in Spanish, with the occasional one in English. Feel free to explore some of my coding endeavors on [GitHub](https://github.com/Kevin-J-Martinez), follow me on [Twitter/X](https://x.com/IncPersonales).
 

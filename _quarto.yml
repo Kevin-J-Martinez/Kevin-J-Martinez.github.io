@@ -3,20 +3,32 @@ project:
   output-dir: docs
 
 website:
-  title: "Kevin J Martinez"
+  title: "K.J.Martinez"
+
+  draft-mode: gone
+  
   navbar:
     left:
       - href: index.qmd
         text: Home
+
       - about.qmd
+
+      - Projects.qmd
+
+      - Essays.qmd
+
+      - Graphs.qmd
+
 
 format:
   html:
     theme:
-      - cosmo
+      - Lux # cyborg Lux Slate Darkly
       - brand
+    mainfont: "Latin Modern Roman"
+    fontsize: 1rem
+    monofont: "Latin Modern Mono"
+    linkcolor: "#090D11"
     css: styles.css
     toc: true
-
-
-

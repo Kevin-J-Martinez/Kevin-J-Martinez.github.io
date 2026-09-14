@@ -1,0 +1,11 @@
+---
+title: "Proximo gráfico en camino"
+date: "2026-09-14"
+draft: false
+categories:
+  - graph
+---
+
+#### Prontooo
+
+in process... 

@@ -1,1 +1,30 @@
-/* css styles */
+/* Ancho del contenido principal */
+.content {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Texto */
+body {
+  line-height: 1.6;
+}
+
+/* Centrar y limitar el ancho de los artículos */
+#quarto-content {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* El texto de los artículos */
+#quarto-document-content {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Dar espacio al "On this page" */
+#TOC {
+  margin-left: 70px;
+}

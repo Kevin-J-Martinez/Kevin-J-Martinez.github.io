@@ -1,9 +1,41 @@
 ---
-title: "About"
+title: "Me"
+image: About.jpg
+about: 
+    template: trestles
+    image-shape: round 
+    links: 
+        - text : Email
+          icon : envelope
+          href : mailto:cuentaskevin23@gmail.com
+        - text : K.J.Martinez
+          icon : twitter-x
+          href : https://x.com/IncPersonales
+        - text : Linkedin
+          icon : linkedin
+          href : https://www.linkedin.com/in/kevin-j-mart%C3%ADnez-/
+    id: ppc
 ---
+:::{#ppc}
 
-About this site
+__Kevin Martínez__ is a sixth-semester Economics student at Universidad Santiago de Cali. He is interested in economic research and enjoys learning about how economic ideas and data can be used to understand real-world problems. Although he has not yet decided which area of research he wants to pursue, he is keeping an open mind and exploring different fields of economics.
 
-```{r}
-1 + 1
-```
+Kevin's long-term goal is to work at the central bank of his country, where he hopes to contribute to economic research and analysis. He believes that research plays an important role in human progress and that new ideas should always be built upon the knowledge and evidence that came before them.
+
+#### Education
+
+Universidad Santiago de Cali | Cali, Colombia
+Economics | Currently in 6th semester
+
+#### Current Focus
+
++ Economic Research
+Developing skills in economic analysis, research methods, and causal analysis.
+
++ Data & Programming
+Building proficiency in Python and learning to use data to investigate economic questions.
+
++ Applied Economics
+Exploring different areas of economics through projects, essays, data analysis, and visualization.
+
+:::

@@ -1,0 +1,8 @@
+---
+title: "Graphs"
+
+listing:
+  contents: "posts/graph-*.qmd"
+  sort: date desc
+  type: default
+---

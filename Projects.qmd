@@ -1,0 +1,8 @@
+---
+title: "Projects"
+
+listing:
+  contents: "posts/project-*.qmd"
+  sort: date desc
+  type: default
+---
