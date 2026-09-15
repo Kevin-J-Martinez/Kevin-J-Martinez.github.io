@@ -80,7 +80,7 @@ Universidad Santiago de Cali · Economics · 6th semester
 
 ::: {.content-section}
 
-<p class="section-label">TRAJECTORY</p>
+<p class="section-label">TRAJECTORY :/</p>
 
 <div class="section-content">
 
@@ -100,7 +100,7 @@ build on existing evidence — not replace it without justification. :)
 
 ::: {.content-section}
 
-<p class="section-label">CURRENT FOCUS</p>
+<p class="section-label">CURRENT FOCUS ;P</p>
 
 <div class="interest-grid">
 
@@ -142,6 +142,20 @@ data analysis, and visualization.
 </p>
 
 </div>
+
+</div>
+
+:::
+::: {.content-section}
+
+<p class="section-label">Fun facts :-O</p>
+
+<div class="section-content">
+
++ I love write (more in spanish because i'm learning english)✍️.
++ I use [zettelkasten](https://zettelkasten.de/) method for knowledge management and mapminds for learn ( Everything whit [obsidian](https://obsidian.md/)).
++ Hobbies: I play (chess♟️)[https://www.chess.com/], gym and I love the anime (My favorite anime is Attack on titan and anime movie is Chainsaw Man – The Movie: Reze Arc)🙀.
++ I'm "paisa" but I dont have that accent because I haven't lived there.
 
 </div>
 
