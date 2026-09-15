@@ -1,41 +1,148 @@
+﻿---
+title: "I❤️"
+page-layout: article
 ---
-title: "Me"
-image: About.jpg
-about: 
-    template: trestles
-    image-shape: round 
-    links: 
-        - text : Email
-          icon : envelope
-          href : mailto:cuentaskevin23@gmail.com
-        - text : K.J.Martinez
-          icon : twitter-x
-          href : https://x.com/IncPersonales
-        - text : Linkedin
-          icon : linkedin
-          href : https://www.linkedin.com/in/kevin-j-mart%C3%ADnez-/
-    id: ppc
----
-:::{#ppc}
 
-__Kevin Martínez__ is a sixth-semester Economics student at Universidad Santiago de Cali. He is interested in economic research and enjoys learning about how economic ideas and data can be used to understand real-world problems. Although he has not yet decided which area of research he wants to pursue, he is keeping an open mind and exploring different fields of economics.
+::: {.hero}
 
-Kevin's long-term goal is to work at the central bank of his country, where he hopes to contribute to economic research and analysis. He believes that research plays an important role in human progress and that new ideas should always be built upon the knowledge and evidence that came before them.
+<div class="hero-content" style="display:flex; align-items:center; gap:60px; flex-wrap:wrap;">
 
-#### Education
+<div style="flex:0.9; min-width:280px;">
 
-Universidad Santiago de Cali | Cali, Colombia
-Economics | Currently in 6th semester
+<p class="eyebrow">ABOUT ME :)</p>
 
-#### Current Focus
+# Kevin <span>Martínez🧟</span>
 
-+ Economic Research
-Developing skills in economic analysis, research methods, and causal analysis.
+<p class="hero-description">
+Sixth-semester Economics student at Universidad Santiago de Cali. Interested
+in economic research and in how data can be used to understand real-world
+problems. Still exploring rather than committing to a single field.
+</p>
 
-+ Data & Programming
-Building proficiency in Python and learning to use data to investigate economic questions.
+<p class="hero-note">
+(If you would like to get in touch with me, feel free to send me an email.
+Please use “Blog” as the subject line. Any advice, respectful criticism,
+curiosity, or request for more information about me is welcome!!!!.)
+</p>
 
-+ Applied Economics
-Exploring different areas of economics through projects, essays, data analysis, and visualization.
+<div class="hero-buttons">
+
+<a class="hero-button hero-button-fill" href="mailto:cuentaskevin23@gmail.com">
+Email <span>→</span>
+</a>
+
+<a class="hero-button hero-button-outline" href="https://x.com/IncPersonales" target="_blank">
+X / Twitter <span>→</span>
+</a>
+
+<a class="hero-button hero-button-outline" href="https://www.linkedin.com/in/kevin-j-mart%C3%ADnez-/" target="_blank">
+LinkedIn <span>→</span>
+</a>
+
+</div>
+
+<p class="hero-note">
+Universidad Santiago de Cali · Economics · 6th semester
+</p>
+
+</div>
+
+<div class="hero-graphic">
+
+<svg viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <g class="hg-grid">
+    <line x1="0" y1="40" x2="260" y2="40"></line>
+    <line x1="0" y1="90" x2="260" y2="90"></line>
+    <line x1="0" y1="140" x2="260" y2="140"></line>
+  </g>
+  <path class="hg-line" d="M0,150 C40,120 55,60 90,70 C120,78 130,130 160,110 C190,92 200,30 230,40 C245,45 250,55 260,50"></path>
+  <circle class="hg-dot" cx="0" cy="150" r="3.5"></circle>
+  <circle class="hg-point" cx="90" cy="70" r="2.5"></circle>
+  <circle class="hg-point" cx="160" cy="110" r="2.5"></circle>
+  <circle class="hg-point" cx="230" cy="40" r="2.5"></circle>
+</svg>
+
+<p class="hg-label">Soo far, so goood!🐼</p>
+
+</div>
+
+</div>
+
+<div class="scroll-indicator">
+
+<p>SCROLL</p>
+
+<div class="scroll-line"></div>
+
+</div>
+
+:::
+
+::: {.content-section}
+
+<p class="section-label">TRAJECTORY</p>
+
+<div class="section-content">
+
+<p class="large-text">
+The long-term goal is to work at his country's central bank, contributing
+to economic research and analysis🪙.
+</p>
+
+<p>
+He believes research is a driver of progress, and that new ideas should
+build on existing evidence — not replace it without justification. :)
+</p>
+
+</div>
+
+:::
+
+::: {.content-section}
+
+<p class="section-label">CURRENT FOCUS</p>
+
+<div class="interest-grid">
+
+<div class="interest-item">
+
+<span>01 · RESEARCH</span>
+
+### 🕵️ Economic research
+
+<p>
+Developing skills in economic analysis, research methods, and
+causal inference.
+</p>
+
+</div>
+
+<div class="interest-item">
+
+<span>02 · TECHNICAL</span>
+
+### 💻 Data & programming
+
+<p>
+Building proficiency in Python and R to investigate economic
+questions with real data.
+</p>
+
+</div>
+
+<div class="interest-item">
+
+<span>03 · APPLIED</span>
+
+### 🧠 Applied economics
+
+<p>
+Exploring different areas of economics through projects, essays,
+data analysis, and visualization.
+</p>
+
+</div>
+
+</div>
 
 :::

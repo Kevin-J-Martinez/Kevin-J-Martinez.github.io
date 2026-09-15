@@ -1,8 +1,15 @@
 ---
 title: "Graphs"
-
+page-layout: article
 listing:
   contents: "posts/graph-*.qmd"
   sort: date desc
   type: default
 ---
+
+::: {.content-section style="padding-bottom: 0; border-top: none;"}
+<p class="section-label">ARCHIVE · GRAPHS</p>
+<div class="section-content">
+<p class="large-text">Visualizations and exploration of economic data📊.</p>
+</div>
+:::

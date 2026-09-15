@@ -1,8 +1,8 @@
 [
   {
-    "listing": "/Projects.html",
+    "listing": "/Graphs.html",
     "items": [
-      "/posts/project-1.html"
+      "/posts/graph-1.html"
     ]
   },
   {
@@ -12,9 +12,9 @@
     ]
   },
   {
-    "listing": "/Graphs.html",
+    "listing": "/Projects.html",
     "items": [
-      "/posts/graph-1.html"
+      "/posts/project-1.html"
     ]
   }
 ]

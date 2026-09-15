@@ -1,0 +1,66 @@
+---
+title: "Resources"
+page-layout: article
+---
+
+<div class="resources-page">
+
+<div class="resources-intro">
+
+<p class="eyebrow">RESOURCES</p>
+
+<h1>Things I use<br>to <span>explore.</span></h1>
+
+<p class="hero-description">
+A collection of datasets, institutions, research platforms, papers,
+and other resources that I find useful for learning and exploring economics.
+</p>
+
+</div>
+
+<div class="resources-list">
+
+<a class="resource-item" href="https://www.dane.gov.co/" target="_blank">
+<div>
+<span class="resource-number">01</span>
+<strong>DANE🔗</strong>
+<p>Colombian official statistics and public datasets.</p>
+</div>
+</a>
+
+<a class="resource-item" href="https://www.banrep.gov.co/" target="_blank">
+<div>
+<span class="resource-number">02</span>
+<strong>Banco de la República🔗</strong>
+<p>Economic research, statistics, and monetary policy information.</p>
+</div>
+</a>
+
+<a class="resource-item" href="https://ourworldindata.org/" target="_blank">
+<div>
+<span class="resource-number">03</span>
+<strong>Our World in Data🔗</strong>
+<p>Data and research on global economic and social problems.</p>
+</div>
+</a>
+
+<a class="resource-item" href="https://drive.google.com/drive/folders/14rKfgCLS0xhh0mqWmAamh35gCWra1hZM?usp=sharing" target="_blank">
+<div>
+<span class="resource-number">04</span>
+<strong>MI LIBRARY🔗</strong>
+<p>Where I put my books, that's all.</p>
+</div>
+</a>
+
+
+<a class="resource-item" href="https://jakevdp.github.io/PythonDataScienceHandbook/index.html" target="_blank">
+<div>
+<span class="resource-number">05</span>
+<strong>PYTHON DATA SCIENCE HANDBOOK🔗</strong>
+<p>Book for learn python for data science🤣</p>
+</div>
+</a>
+
+</div>
+
+</div>

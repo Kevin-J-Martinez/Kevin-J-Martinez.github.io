@@ -6,3 +6,9 @@
 #tree /F /A > estructura.txt comando para crear un doc de la estrucutra
 # quarto render compilar y guardar cambios -> git add --all -> git commit -m "Update website" -> git push
 # quarto preview para previsualizzar 
+# cerrar por hoy 
+# quarto render
+# git status 
+# git add --all
+# git commit -m "Update website"
+# git push
