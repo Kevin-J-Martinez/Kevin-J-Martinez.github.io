@@ -1,8 +1,9 @@
 project:
   type: website
   output-dir: docs
-  resources:
-    - assets/effects.js
+resources:
+  - assets/effects.js
+  - assets/team-leader.png
 
 website:
   title: "K.J. Martinez"
@@ -35,6 +36,7 @@ format:
     theme:
       - Lux
       - brand
+    favicon: assets/team-leader.png
     mainfont: "Source Serif 4"
     fontsize: 1rem
     monofont: "IBM Plex Mono"
