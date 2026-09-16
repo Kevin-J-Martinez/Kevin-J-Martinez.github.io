@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>/Resources.html</loc>
-    <lastmod>2026-09-15T18:35:52.257Z</lastmod>
+    <lastmod>2026-09-16T13:45:40.993Z</lastmod>
   </url>
   <url>
     <loc>/posts/project-1.html</loc>
     <lastmod>2026-09-14T19:33:20.043Z</lastmod>
   </url>
   <url>
-    <loc>/posts/essay-1.html</loc>
-    <lastmod>2026-09-14T19:37:39.381Z</lastmod>
-  </url>
-  <url>
-    <loc>/Graphs.html</loc>
-    <lastmod>2026-09-15T17:48:06.284Z</lastmod>
-  </url>
-  <url>
-    <loc>/about.html</loc>
-    <lastmod>2026-09-15T20:51:32.942Z</lastmod>
+    <loc>/index.html</loc>
+    <lastmod>2026-09-16T15:54:02.075Z</lastmod>
   </url>
   <url>
     <loc>/Essays.html</loc>
-    <lastmod>2026-09-15T17:48:36.318Z</lastmod>
+    <lastmod>2026-09-16T15:42:53.139Z</lastmod>
   </url>
   <url>
-    <loc>/index.html</loc>
-    <lastmod>2026-09-15T17:57:57.988Z</lastmod>
+    <loc>/about.html</loc>
+    <lastmod>2026-09-16T15:57:32.810Z</lastmod>
+  </url>
+  <url>
+    <loc>/Graphs.html</loc>
+    <lastmod>2026-09-16T15:50:53.018Z</lastmod>
+  </url>
+  <url>
+    <loc>/posts/essay-1.html</loc>
+    <lastmod>2026-09-16T14:18:49.448Z</lastmod>
   </url>
   <url>
     <loc>/posts/graph-1.html</loc>
@@ -34,6 +34,6 @@
   </url>
   <url>
     <loc>/Projects.html</loc>
-    <lastmod>2026-09-15T17:48:28.160Z</lastmod>
+    <lastmod>2026-09-16T15:51:49.973Z</lastmod>
   </url>
 </urlset>

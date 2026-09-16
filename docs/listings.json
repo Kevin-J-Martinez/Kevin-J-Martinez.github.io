@@ -1,14 +1,14 @@
 [
   {
-    "listing": "/Graphs.html",
-    "items": [
-      "/posts/graph-1.html"
-    ]
-  },
-  {
     "listing": "/Essays.html",
     "items": [
       "/posts/essay-1.html"
+    ]
+  },
+  {
+    "listing": "/Graphs.html",
+    "items": [
+      "/posts/graph-1.html"
     ]
   },
   {

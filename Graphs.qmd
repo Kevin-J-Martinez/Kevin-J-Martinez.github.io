@@ -1,6 +1,8 @@
 ---
 title: "Graphs"
+
 page-layout: article
+
 listing:
   contents: "posts/graph-*.qmd"
   sort: date desc
@@ -8,8 +10,18 @@ listing:
 ---
 
 ::: {.content-section style="padding-bottom: 0; border-top: none;"}
+
 <p class="section-label">ARCHIVE · GRAPHS</p>
+
 <div class="section-content">
-<p class="large-text">Visualizations and exploration of economic data📊.</p>
+
+<p class="large-text">Economic data visualizations, charts, and visual explorations, ordered by publication date.📊</p>
+
+#### Why do I make graphs?
+
+Who wouldn't want a library of graphs built specifically to highlight something — a pattern, a relationship, a turning point that wouldn't be obvious in a table of numbers? A good graph is often the fastest way to communicate what months of data actually mean, and building that muscle now means I'll have both the visual intuition and the reference library later.
+
+Ordered by publication date:
 </div>
+
 :::

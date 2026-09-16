@@ -6,7 +6,7 @@ description: "Economics student focused on labor markets, development, and publi
 <div class="hero">
 
 <div class="hero-background-label">
-DATA · ECONOMICS · RESEARCH
+"Eterno retorno" Friedrich Nietzsche
 </div>
 
 <div class="hero-content">
@@ -65,7 +65,7 @@ Based in Colombia · Economics student · Data & research
 <section class="content-section">
 
 <div class="section-label">
-01 · ABOUT
+01 · Idea :-)
 </div>
 
 <div class="section-content">
@@ -73,13 +73,13 @@ Based in Colombia · Economics student · Data & research
 <p class="large-text">
 “If I have seen further it is by standing on the shoulders of Giants.⛰️”
 </p>
-<p>Isaac Newton</p>
+<p>Isaac Newton 🍎</p>
 <p>
 For this idea, among others, I want to learn and do research to help people and apply what I learn to solve problems that require deep reflection. I want to think more about what numbers represent rather than simply looking at figures, because we are limited human beings trying to understand more about this uncertain world, while recognizing that the ideas I work with do not entirely belong to me.
 </p>
 
-<a href="about.html" class="text-link">
-More about me →
+<a href="Essays.html" class="text-link">
+More ideas →
 </a>
 
 </div>
@@ -90,7 +90,7 @@ More about me →
 <section class="content-section">
 
 <div class="section-label">
-1.0 · Research Interests 
+02 · Research Interests :'(
 </div>
 
 <div class="section-content">
@@ -99,7 +99,7 @@ More about me →
 
 <div class="interest-item">
 
-<span>1.1</span>
+<span>2.1</span>
 
 <h3>No yet :(</h3>
 
@@ -112,7 +112,7 @@ Do you
 
 <div class="interest-item">
 
-<span>1.2</span>
+<span>2.2</span>
 
 <h3>No yet :(</h3>
 
@@ -125,7 +125,7 @@ have
 
 <div class="interest-item">
 
-<span>1.3</span>
+<span>2.3</span>
 
 <h3>No yet :(</h3>
 
@@ -138,7 +138,7 @@ any
 
 <div class="interest-item">
 
-<span>1.4</span>
+<span>2.4</span>
 
 <h3>No yet :(</h3>
 
@@ -158,7 +158,7 @@ advice?
 <section class="archive-section">
 
 <div class="section-label">
-02 · ARCHIVE
+03 · Why does this website even exist? :D
 </div>
 
 <div class="archive-list">
@@ -166,61 +166,29 @@ advice?
 <div class="archive-intro">
 
 <p>
-A growing collection of projects, visualizations and essays
-about economics, data and research.
-</p>
-
+ -That's the question I asked myself-. There had to be a reason, because building and maintaining it obviously eats up my time, and like everyone else's, my time is limited.So why bother sitting down and forcing myself to think this hard about it? Honestly, my reasons are selfish, I won't pretend otherwise.</p>
+<p>But that selfishness is exactly why I try to hold whatever I publish to some minimum standard, so that someone who doesn't share my assumptions can still make sense of it. And sure, I won't pretend I'm not also interested in being easier to find, in having my work seen by potential recruiters or collaborators. But underneath all that, what I really want is to put into words how I think about the limits we all live with.</p>
+<p>That's really all I've got to say. I hope you don't mind the more casual tone, and that you're patient enough to figure out what exactly I'm trying to get across here. One last thing: I'd love to hear what you think, because in a way, none of this means anything if nobody reads it. So drop me an email, my contact info's right here on the site.</p>
 </div>
 
 
-<a href="posts/project-1.html" class="archive-row">
-
-<span class="archive-type">
-PROJECT
-</span>
-
-<span class="archive-title">
-Economic analysis with data (researches)
-</span>
-
-<span class="archive-arrow" aria-hidden="true">
-↗
-</span>
-
+<a href="projects.html" class="archive-row" id="latest-project-row">
+    <span class="archive-type">PROJECT</span>
+    <span class="archive-title" id="latest-project-title">Researches and projets📑</span>
+    <span class="archive-arrow" aria-hidden="true">↗</span>
 </a>
 
-
-<a href="posts/graph-1.html" class="archive-row">
-
-<span class="archive-type">
-GRAPH
-</span>
-
-<span class="archive-title">
-Exploring economic data or just data: What's the difference?
-</span>
-
-<span class="archive-arrow" aria-hidden="true">
-↗
-</span>
-
+<a href="graphs.html" class="archive-row" id="latest-graph-row">
+    <span class="archive-type">GRAPH</span>
+    <span class="archive-title" id="latest-graph-title">Exploring economic data or just data: 
+    What's the difference?📊</span>
+    <span class="archive-arrow" aria-hidden="true">↗</span>
 </a>
 
-
-<a href="posts/essay-1.html" class="archive-row">
-
-<span class="archive-type">
-ESSAY
-</span>
-
-<span class="archive-title">
-Longer ideas
-</span>
-
-<span class="archive-arrow" aria-hidden="true">
-↗
-</span>
-
+<a href="essays.html" class="archive-row" id="latest-essay-row">
+    <span class="archive-type">ESSAY</span>
+    <span class="archive-title" id="latest-essay-title">Longer ideas🛒</span>
+    <span class="archive-arrow" aria-hidden="true">↗</span>
 </a>
 
 </div>

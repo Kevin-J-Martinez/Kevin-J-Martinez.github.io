@@ -1,6 +1,8 @@
 ---
 title: "Projects"
+
 page-layout: article
+
 listing:
   contents: "posts/project-*.qmd"
   sort: date desc
@@ -8,8 +10,17 @@ listing:
 ---
 
 ::: {.content-section style="padding-bottom: 0; border-top: none;"}
+
 <p class="section-label">ARCHIVE · PROJECTS</p>
+
 <div class="section-content">
-<p class="large-text">Applied economic research projects📑.</p>
+
+<p class="large-text">Research projects and applied economic analysis with data.📑</p>
+
+#### Why do I write research?
+
+This is what I actually want to dedicate myself to. There's something genuinely exciting about writing research that tries to solve real problems — not just describing a phenomenon, but understanding it well enough to push past the obvious explanation and get closer to what's actually going on.
+
+Ordered by publication date:
 </div>
 :::

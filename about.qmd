@@ -1,5 +1,5 @@
 ﻿---
-title: "I❤️"
+title: "I🧑🏻‍💼"
 page-layout: article
 ---
 
@@ -11,7 +11,7 @@ page-layout: article
 
 <p class="eyebrow">ABOUT ME :)</p>
 
-# Kevin <span>Martínez🧟</span>
+# Kevin <span>Martínez🗣️</span>
 
 <p class="hero-description">
 Sixth-semester Economics student at Universidad Santiago de Cali. Interested
@@ -62,7 +62,7 @@ Universidad Santiago de Cali · Economics · 6th semester
   <circle class="hg-point" cx="230" cy="40" r="2.5"></circle>
 </svg>
 
-<p class="hg-label">Soo far, so goood!🐼</p>
+<p class="hg-label">Soo far, so goood!🐘</p>
 
 </div>
 
