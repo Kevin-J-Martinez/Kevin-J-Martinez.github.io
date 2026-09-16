@@ -172,20 +172,20 @@ advice?
 </div>
 
 
-<a href="projects.html" class="archive-row" id="latest-project-row">
+<a href="Projects.html" class="archive-row" id="latest-project-row">
     <span class="archive-type">PROJECT</span>
     <span class="archive-title" id="latest-project-title">Researches and projets📑</span>
     <span class="archive-arrow" aria-hidden="true">↗</span>
 </a>
 
-<a href="graphs.html" class="archive-row" id="latest-graph-row">
+<a href="Graphs.html" class="archive-row" id="latest-graph-row">
     <span class="archive-type">GRAPH</span>
     <span class="archive-title" id="latest-graph-title">Exploring economic data or just data: 
     What's the difference?📊</span>
     <span class="archive-arrow" aria-hidden="true">↗</span>
 </a>
 
-<a href="essays.html" class="archive-row" id="latest-essay-row">
+<a href="Essays.html" class="archive-row" id="latest-essay-row">
     <span class="archive-type">ESSAY</span>
     <span class="archive-title" id="latest-essay-title">Longer ideas🛒</span>
     <span class="archive-arrow" aria-hidden="true">↗</span>
