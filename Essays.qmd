@@ -1,5 +1,5 @@
 ---
-title: "Essays"
+title: "Notes💭"
 
 page-layout: article
 
@@ -15,12 +15,13 @@ listing:
 
 <div class="section-content">
 
-<p class="large-text">Essays and reflections on economics, data, and method🛒.</p>
+<p class="large-text">Essays and small projects on economics, data, and method🛒.</p>
 
 
 #### Why do I write essays?
 
-The original idea was to write full articles, but given the technical rigor that demands compared to an essay, it makes more sense for a student to start here. Essays let me explore a topic and test out a perspective without needing the same level of formal apparatus a research piece would require — they're a space to think out loud, work through an idea, and see where it leads before committing to something heavier.
+
+The original idea was to write full articles, but given the technical rigor that demands compared to an essay and small projects, it makes more sense for a student to start here. Essays let me explore a topic and test out a perspective without needing the same level of formal apparatus a research piece would require — they're a space to think out loud, work through an idea, and see where it leads before committing to something heavier.
 
 Ordered by publication date:
 </div>

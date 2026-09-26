@@ -1,15 +1,15 @@
 ---
-title: "Resources"
+title: "Resources📦"
 page-layout: article
 ---
-
+ 
 <div class="resources-page">
 
 <div class="resources-intro">
 
 <p class="eyebrow">RESOURCES</p>
 
-<h1>Things I use<br>to <span>explore.</span></h1>
+<h1>Things <span>I use<br>to </span>explore.</h1>
 
 <p class="hero-description">
 A collection of datasets, institutions, research platforms, papers,
@@ -56,11 +56,46 @@ and other resources that I find useful for learning and exploring economics.
 <a class="resource-item" href="https://jakevdp.github.io/PythonDataScienceHandbook/index.html" target="_blank">
 <div>
 <span class="resource-number">05</span>
-<strong>PYTHON DATA SCIENCE HANDBOOK🔗</strong>
-<p>Book for learn python for data science🤣</p>
+<strong>A Book PYTHON DATA SCIENCE HANDBOOK🔗</strong>
+<p>A Book for learn python for data science🤣</p>
 </div>
 </a>
 
+
+
+<a class="resource-item" href="https://www.youtube.com/@JustinSung" target="_blank">
+<div>
+<span class="resource-number">06</span>
+<strong>A channel for learn to make a useful tool 🔗</strong>
+<p>Mind maps</p>
+</div>
+</a>
+
+
+<a class="resource-item" href="https://www.youtube.com/@benjaminkeep" target="_blank">
+<div>
+<span class="resource-number">07</span>
+<strong>A channel for learn to learn 🔗</strong>
+<p>More general</p>
+</div>
+</a>
+
+<a class="resource-item" href="https://www.scotthyoung.com/blog/ultralearning/" target="_blank">
+<div>
+<span class="resource-number">07</span>
+<strong>A book for learn anything than you want 🔗</strong>
+<p>It's a great book, this book is in my library in spanish</p>
+</div>
+</a>
+
+
+<a class="resource-item" href="https://econ-jobs.com/media/in-demand-skills-economists-2026/" target="_blank">
+<div>
+<span class="resource-number">07</span>
+<strong>Skills for economist 2026 🔗</strong>
+<p>If you are a young economist or someone who want to learn, obviuslly you have to work whit teory and a lot things more</p>
+</div>
+</a>
 </div>
 
 </div>

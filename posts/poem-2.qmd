@@ -1,0 +1,59 @@
+---
+title: "Poema de ejemplo2"
+date: 2026-10-26
+draft: true
+categories:
+    - poesía
+---
+
+<div style="text-align:rigth; max-width:600px; margin:0 auto;">
+
+## Lo Sin Razón
+
+Lo sin razón es comprensible,<br>
+en gran medida,<br>
+pero lo que no entiendo<br>
+es por qué me causa una herida,<br>
+como si mi propio ser me estuviera consumiendo.<br>
+Es ilógico depreciar una cara de la misma moneda.<br><br>
+
+¿Ser animales es nuestra naturaleza?<br>
+¿Acaso mi esencia debe ser estar fingiendo?<br>
+Ser racional me está carcomiendo,<br>
+la injuria de no saber<br>
+si soy yo quien está viviendo.<br><br>
+
+Lo sin razón es comprensible,<br>
+¿en qué?<br><br>
+
+Para mí, un intelectual entendible,<br>
+es natural salir de compostura;<br>
+pero no debería herirme<br>
+si sé que viene la aguja.<br>
+¿Debo reprochar a un león<br>
+sus matanzas y luchas sin brújula?<br><br>
+
+La noche caminando, apaciguarte era,<br>
+pero un viento torrencial apedrea mi alma.<br>
+¿Por qué me quieres herir<br>
+si acobijarme es tu tarea?<br>
+Tal vez los fríos años de invierno,<br>
+y el abrigo que no me queda,<br>
+la voz que carraspea<br>
+evitan que al niño que tiritea veas.<br><br>
+
+El frío y el sepulcro me jadean;<br>
+prefiero pudrirme a madurar,<br>
+por irónico que sea.<br>
+A tu espalda me aferro y a tu pierna,<br>
+aunque te doble en tamaño,<br>
+tu sombra me amedrenta.<br>
+¡Cómo evitamos el “transcurrir”<br>
+que nos acarrea!<br>
+Si nos persigue diciendo,<br>
+“escalar es cadena perpetua,<br>
+y al quejumbroso se le abuchea.”<br>
+Al sin capacidad, con fuerza lo ajetrean.
+
+</div>
+ 

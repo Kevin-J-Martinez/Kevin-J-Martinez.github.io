@@ -24,7 +24,7 @@ through data.
 <p class="hero-description">
 Hey it’s a pleasure, I’m Kevin, an Economics student interested in research, data, and applied economics.
 
-I use this website to document what I learn and the projects I work on throughout my studies. Here you will find economic analyses, data visualizations, essays, and research projects covering a variety of topics.
+I use this website to document what I write and the projects I work on throughout my studies. Here you will find economic analyses, data visualizations, essays, and research projects covering a variety of topics.
 
 I am still exploring where my interests in economics will take me, so I am keeping an open mind and learning by doing.
 
@@ -186,8 +186,14 @@ advice?
 </a>
 
 <a href="Essays.html" class="archive-row" id="latest-essay-row">
-    <span class="archive-type">ESSAY</span>
+    <span class="archive-type">Notes & Explorations</span>
     <span class="archive-title" id="latest-essay-title">Longer ideas🛒</span>
+    <span class="archive-arrow" aria-hidden="true">↗</span>
+</a>
+
+<a href="Poems.html" class="archive-row" id="latest-essay-row">
+    <span class="archive-type">Poems</span>
+    <span class="archive-title" id="latest-essay-title">Beautiful ideas🥀</span>
     <span class="archive-arrow" aria-hidden="true">↗</span>
 </a>
 

@@ -1,0 +1,27 @@
+---
+title: "Poems🌹"
+
+page-layout: article
+
+listing:
+  contents: "posts/poem-*.qmd"
+  sort: date desc
+  type: default
+---
+
+::: {.content-section style="padding-bottom: 0; border-top: none;"}
+
+<p class="section-label">ARCHIVE · POEMS</p>
+
+<div class="section-content">
+
+<p class="large-text">Poems, I love write them, It's something for get out of economics sometimes✍️</p>
+
+#### Why do I write poems?
+
+I Want to share some thinks
+
+Ordered by publication date:
+</div>
+
+:::

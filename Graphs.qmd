@@ -1,5 +1,5 @@
 ---
-title: "Graphs"
+title: "Graphs📊"
 
 page-layout: article
 
