@@ -193,10 +193,11 @@ advice?
 
 <a href="Poems.html" class="archive-row" id="latest-essay-row">
     <span class="archive-type">Poems</span>
-    <span class="archive-title" id="latest-essay-title">Beautiful ideas🥀</span>
+    <span class="archive-title" id="latest-essay-title">Gray and beautiful ideas🥀</span>
     <span class="archive-arrow" aria-hidden="true">↗</span>
 </a>
 
 </div>
 
 </section>
+

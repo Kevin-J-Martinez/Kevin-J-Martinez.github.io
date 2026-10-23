@@ -7,20 +7,14 @@
   },
   {
     "listing": "/Graphs.html",
-    "items": [
-      "/posts/graph-1.html"
-    ]
+    "items": []
   },
   {
     "listing": "/Essays.html",
-    "items": [
-      "/posts/essay-1.html"
-    ]
+    "items": []
   },
   {
     "listing": "/Projects.html",
-    "items": [
-      "/posts/project-1.html"
-    ]
+    "items": []
   }
 ]

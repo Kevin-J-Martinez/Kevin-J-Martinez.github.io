@@ -98,4 +98,24 @@ and other resources that I find useful for learning and exploring economics.
 </a>
 </div>
 
+
+<a class="resource-item" href="https://www.youtube.com/@MathCanBeAHobby" target="_blank">
+<div>
+<span class="resource-number">07</span>
+<strong>Math can be a hobby🔗</strong>
+<p>I wanna recomend to you a channel for see math the other way</p>
+</div>
+</a>
+</div>
+
+<a class="resource-item" href="https://www.youtube.com/@MathCanBeAHobby" target="_blank">
+<div>
+<span class="resource-number">07</span>
+<strong>Math can be a hobby🔗</strong>
+<p>I wanna recomend to you a channel for see math the other way</p>
+</div>
+</a>
+</div>
+
+
 </div>

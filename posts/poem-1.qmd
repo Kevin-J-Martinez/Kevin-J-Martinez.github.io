@@ -1,7 +1,7 @@
 ---
 title: "En el fondo"
 date: 2026-09-26
-draft: False
+draft: false
 categories:
     - poesía
 ---
@@ -34,7 +34,7 @@ Quiero aferrarme y desgarrarte;<br>
 aunque te hiera, quiero empeñarme,<br>
 absorber tus memorias,<br>
 pero lo poco que consigo<br>
-es arrancar migajas entre mis uñas de tu esencia.<br><br>
+es sangre entre mis uñas, migajas de tu esencia.<br><br>
 
 Es a ti, silencio, mi mayor temor.<br>
 La mente es confusa:<br>
@@ -80,7 +80,7 @@ que llamo cabellera.<br><br>
 
 Instrúyeme para que el mal<br>
 no me aceche,<br>
-¿para qué al irte?,<br>
+¿para qué irte?,<br>
 sí me puedas acompañar<br>
 toda una vida.<br><br>
 
@@ -114,7 +114,7 @@ de una madurez.<br><br>
 
 No sé si es amor<br>
 o si es que dependo completamente,<br>
-pero deseo exasperarme pensando<br>
+pero el pensamiento solapado, me dice<br>
 que aún no he aprendido a vivir sin ti.<br>
 En ese momento<br>
 esto se encontrará con un amor verdadero.<br><br>

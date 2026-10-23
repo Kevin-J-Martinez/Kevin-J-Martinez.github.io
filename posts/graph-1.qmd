@@ -1,11 +1,11 @@
 ---
 title: "Proximo gráfico en camino"
 date: "2026-09-14"
-draft: false
+draft: true
 categories:
   - graph
 ---
 
 #### Prontooo
 
-in process... 
+in process... revuisar si los graficos con styles o latex css

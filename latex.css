@@ -1,0 +1,736 @@
+/* =========================================================
+   latex.css — documentos con aspecto de artículo LaTeX
+   Referencia: clase article, 12 pt, hoja carta, márgenes de 1 in,
+   Latin Modern (Computer Modern), reglas estilo booktabs.
+
+   Se carga SOLO en las páginas de documentos (vía essays/_metadata.yml),
+   así que Home, About, Projects, etc. no cambian.
+   Requiere page-layout: custom en esas páginas.
+   ========================================================= */
+
+
+/* =========================================================
+   FUENTES (carpeta fonts/ — ya está en "resources" de _quarto.yml)
+   ========================================================= */
+
+@font-face {
+  font-family: "Latin Modern Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/lm-roman-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Latin Modern Web";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/lm-roman-italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Latin Modern Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/lm-roman-bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Latin Modern Web";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/lm-roman-bold-italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "CMU Typewriter Web";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/cmu-typewriter-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "CMU Typewriter Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/cmu-typewriter-bold.woff2") format("woff2");
+}
+
+
+/* =========================================================
+   VARIABLES
+   ========================================================= */
+
+#quarto-content {
+  --paper: #ffffff;
+  --ink: #000000;
+
+  --page-width: 8.5in;     /* hoja carta */
+  --page-margin: 1in;      /* margen de LaTeX por defecto */
+
+  /* colores de hyperref (colorlinks) */
+  --link-url: #00008b;
+  --link-ref: #8b0000;
+  --link-cite: #006400;
+
+  --lm-serif: "Latin Modern Web", "Latin Modern Roman", "LM Roman 10",
+              "CMU Serif", "Computer Modern", "Times New Roman", serif;
+  --lm-mono: "CMU Typewriter Web", "Latin Modern Mono", "CMU Typewriter Text",
+             Consolas, "Courier New", monospace;
+}
+
+
+/* =========================================================
+   HOJA (el contenedor de Quarto hace de papel)
+   ========================================================= */
+
+#quarto-content {
+  box-sizing: border-box;
+  width: calc(100% - 2rem) !important;
+  max-width: var(--page-width) !important;
+  min-height: 11in;
+  margin: 3rem auto 4rem !important;
+  padding: var(--page-margin) !important;
+
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.08),
+    0 12px 32px -14px rgba(0, 0, 0, 0.30);
+
+  font-family: var(--lm-serif);
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  overflow-wrap: break-word;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures;
+}
+
+/* Si el movimiento de fondo distrae al leer, descomenta: */
+/* #data-background { display: none; } */
+
+
+/* =========================================================
+   BLOQUE DE TÍTULO (\maketitle)
+   ========================================================= */
+
+#quarto-content #title-block-header {
+  margin: 0 0 2.4em;
+  padding: 0;
+  border: 0;
+  text-align: center;
+}
+
+#quarto-content #title-block-header .quarto-title {
+  margin: 0;
+}
+
+#quarto-content #title-block-header .title {
+  margin: 0;
+  padding: 0;
+  font-family: var(--lm-serif);
+  font-size: 1.44em;          /* \LARGE */
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: center;
+  color: var(--ink);
+  hyphens: manual;
+}
+
+#quarto-content #title-block-header .subtitle {
+  margin: 0.5em 0 0;
+  font-size: 1.2em;           /* \large */
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--ink);
+}
+
+#quarto-content #title-block-header.default .quarto-title-meta {
+  display: block;
+  margin: 1.4em 0 0;
+  padding: 0;
+  border: 0;
+}
+
+#quarto-content #title-block-header.default .quarto-title-meta > div {
+  margin: 0 0 0.5em;
+}
+
+/* LaTeX no muestra "Author" / "Published" */
+#quarto-content #title-block-header.default .quarto-title-meta-heading {
+  display: none;
+}
+
+#quarto-content #title-block-header.default .quarto-title-meta-contents p {
+  margin: 0;
+  text-indent: 0;
+  font-size: 1.2em;           /* \large */
+  line-height: 1.3;
+  text-align: center;
+}
+
+/* Resumen: más angosto y en cuerpo pequeño, como el entorno abstract */
+#quarto-content #title-block-header .abstract {
+  margin: 2.2em 2.5em 0;
+  font-size: 0.9em;           /* \small */
+  line-height: 1.35;
+  text-align: justify;
+  text-indent: 1.5em;
+}
+
+#quarto-content #title-block-header.default .abstract > p {
+  font-size: 1em;
+  margin: 0;
+  text-indent: 1.5em;
+}
+
+#quarto-content #title-block-header.default .abstract .block-title,
+#quarto-content #title-block-header .abstract .abstract-title {
+  display: block;
+  margin: 0 0 0.8em;
+  font-size: 1em;
+  font-weight: 700;
+  opacity: 1;
+  text-transform: none;
+  text-align: center;
+  text-indent: 0;
+}
+
+
+/* =========================================================
+   SECCIONES (\section, \subsection, ...)
+   En Quarto, "# Título" produce <h1>, "##" produce <h2>, etc.
+   ========================================================= */
+
+#quarto-content section > :is(h1, h2, h3, h4, h5, h6) {
+  margin: 1.2em 0 0.6em;
+  padding: 0;
+  border: 0;
+  font-family: var(--lm-serif);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: left;
+  text-indent: 0;
+  color: var(--ink);
+  hyphens: manual;
+}
+
+#quarto-content section > h1 {            /* \section — \Large */
+  font-size: 1.44em;
+  margin-top: 1.15em;
+}
+
+#quarto-content section > h2 {            /* \subsection — \large */
+  font-size: 1.2em;
+  margin-top: 1.15em;
+  margin-bottom: 0.55em;
+}
+
+#quarto-content section > h3 {            /* \subsubsection */
+  font-size: 1em;
+  margin-top: 1.4em;
+  margin-bottom: 0.65em;
+}
+
+#quarto-content section > :is(h4, h5, h6) {  /* \paragraph */
+  font-size: 1em;
+  margin: 1.2em 0 0.4em;
+}
+
+#quarto-content section > h5 { font-style: italic; }
+
+#quarto-content .header-section-number {
+  margin-right: 1em;                      /* \quad entre número y título */
+  color: inherit;
+}
+
+#quarto-content .anchorjs-link {
+  display: none !important;
+}
+
+
+/* =========================================================
+   PÁRRAFOS (sangría de 1.5 em, sin espacio entre párrafos)
+   ========================================================= */
+
+#quarto-content p {
+  margin: 0;
+  text-indent: 1.5em;
+}
+
+/* El primer párrafo tras un título no se sangra (comportamiento de article) */
+#quarto-content section > :is(h1, h2, h3, h4, h5, h6) + p {
+  text-indent: 0;
+}
+
+#quarto-content p.noindent,
+#quarto-content .noindent > p {
+  text-indent: 0;
+}
+
+#quarto-content strong { font-weight: 700; }
+#quarto-content em { font-style: italic; }
+
+#quarto-content hr {
+  margin: 1.5em 0;
+  border: 0;
+  border-top: 0.5px solid var(--ink);
+  opacity: 1;
+}
+
+
+/* =========================================================
+   FÓRMULAS (MathJax usa Computer Modern)
+   ========================================================= */
+
+#quarto-content mjx-container {
+  text-indent: 0;
+  color: var(--ink);
+}
+
+#quarto-content mjx-container[display="true"] {
+  margin: 1em 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+
+/* =========================================================
+   ENLACES (estilo hyperref)
+   ========================================================= */
+
+#quarto-content a {
+  color: var(--link-url);
+  text-decoration: none;
+}
+
+#quarto-content a:hover {
+  text-decoration: underline;
+}
+
+#quarto-content a.quarto-xref {           /* \ref, @eq-, @tbl-, @fig- */
+  color: var(--link-ref);
+}
+
+#quarto-content a[role="doc-biblioref"] { /* \cite */
+  color: var(--link-cite);
+}
+
+#quarto-content a.footnote-ref,
+#quarto-content a.footnote-ref:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* =========================================================
+   TABLAS (booktabs: regla superior, regla bajo encabezado, regla final)
+   ========================================================= */
+
+#quarto-content table {
+  display: table;
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 0;
+  border-top: 1.5px solid var(--ink);
+  border-bottom: 1.5px solid var(--ink);
+  font-size: 1em;
+  line-height: 1.3;
+  color: var(--ink);
+  background: transparent;
+}
+
+#quarto-content table :is(th, td) {
+  padding: 0.3em 0.9em;
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+  color: var(--ink);
+  font-weight: 400;
+  text-indent: 0;
+  hyphens: manual;
+}
+
+#quarto-content table thead :is(th, td) {
+  border-bottom: 1px solid var(--ink);
+}
+
+#quarto-content table caption {
+  caption-side: top;
+  padding: 0 0 0.7em;
+  color: var(--ink);
+  font-size: 0.9em;
+  text-align: center;
+}
+
+#quarto-content .quarto-float-tbl > div {
+  overflow-x: auto;
+}
+
+
+/* =========================================================
+   FIGURAS Y PIES (la tabla lleva el pie arriba; la figura, abajo)
+   ========================================================= */
+
+#quarto-content .quarto-float,
+#quarto-content figure {
+  display: block;
+  margin: 1.7em auto;
+  text-align: center;
+  text-indent: 0;
+}
+
+#quarto-content figure img,
+#quarto-content .quarto-figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+#quarto-content figcaption,
+#quarto-content .figure-caption {
+  margin: 0.8em auto 0;
+  color: var(--ink);
+  font-size: 0.9em;               /* \small */
+  line-height: 1.3;
+  text-align: center;
+  text-indent: 0;
+}
+
+#quarto-content figcaption.quarto-float-caption-top {
+  margin: 0 auto 0.8em;
+}
+
+
+/* =========================================================
+   LISTAS (itemize / enumerate)
+   ========================================================= */
+
+#quarto-content :is(ul, ol) {
+  margin: 0.6em 0;
+  padding-left: 2.5em;
+  text-align: justify;
+}
+
+#quarto-content li {
+  margin: 0.25em 0;
+}
+
+#quarto-content li > p {
+  margin: 0;
+  text-indent: 0;
+}
+
+#quarto-content :is(ul, ol) :is(ul, ol) {
+  margin: 0.25em 0;
+}
+
+#quarto-content ul ul {
+  list-style-type: "\2013\00a0\00a0";      /* – en el segundo nivel */
+}
+
+#quarto-content ol ol {
+  list-style-type: lower-alpha;
+}
+
+#quarto-content ol ol > li::marker {
+  content: "(" counter(list-item, lower-alpha) ") ";
+}
+
+
+/* =========================================================
+   CITAS (entorno quote)
+   ========================================================= */
+
+#quarto-content blockquote,
+#quarto-content blockquote.blockquote {
+  margin: 1em 2.5em;
+  padding: 0;
+  border: 0;
+  color: var(--ink);
+  font-size: 1em;
+  font-style: normal;
+}
+
+#quarto-content blockquote p {
+  text-indent: 0;
+}
+
+
+/* =========================================================
+   CÓDIGO (listings con marco superior e inferior)
+   ========================================================= */
+
+#quarto-content :is(code, pre, kbd, samp) {
+  font-family: var(--lm-mono);
+}
+
+#quarto-content code {
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  font-size: 0.9em;
+  hyphens: manual;
+  overflow-wrap: anywhere;
+}
+
+#quarto-content div.sourceCode,
+#quarto-content pre:not(.sourceCode) {
+  margin: 1.2em 0;
+  padding: 0;
+  border: 0;
+  border-top: 0.6px solid var(--ink);
+  border-bottom: 0.6px solid var(--ink);
+  border-radius: 0;
+  background: transparent;
+}
+
+#quarto-content pre {
+  margin: 0;
+  padding: 0.6em 0.9em;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--ink);
+  font-size: 0.85em;
+  line-height: 1.3;
+  text-align: left;
+  text-indent: 0;
+  hyphens: none;
+}
+
+#quarto-content pre code {
+  font-size: 1em;
+  overflow-wrap: normal;
+}
+
+
+/* =========================================================
+   TEOREMAS, DEFINICIONES Y DEMOSTRACIONES (amsthm)
+   Quarto: ::: {#thm-id} ... :::   ::: {.proof} ... :::
+   ========================================================= */
+
+#quarto-content .theorem {
+  margin: 1.1em 0;
+  font-style: italic;                     /* estilo "plain" */
+}
+
+#quarto-content .theorem.definition,
+#quarto-content .theorem.example,
+#quarto-content .theorem.exercise {
+  font-style: normal;                     /* estilo "definition" */
+}
+
+#quarto-content .theorem:not(.definition):not(.example):not(.exercise) em {
+  font-style: normal;                     /* \emph dentro de cursiva */
+}
+
+#quarto-content .theorem-title {
+  font-style: normal;
+  font-weight: 700;
+}
+
+#quarto-content .theorem-title::after {
+  content: ".";
+}
+
+#quarto-content :is(.theorem, .proof) > p:first-child {
+  text-indent: 0;
+}
+
+#quarto-content .proof {
+  margin: 1em 0;
+}
+
+#quarto-content .proof-title {
+  font-style: italic;
+}
+
+/* Cuadradito al final de la demostración (solo en .proof, no en remark/solution) */
+#quarto-content .proof:not(.remark):not(.solution) > :last-child::after {
+  content: "\220E";
+  float: right;
+  margin-left: 1em;
+  text-indent: 0;
+}
+
+
+/* =========================================================
+   RECUADROS (callouts) — marco fino, sin color ni ícono
+   ========================================================= */
+
+#quarto-content .callout {
+  margin: 1.3em 0;
+  border: 0.6px solid var(--ink);
+  border-left: 0.6px solid var(--ink);
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent;
+  text-indent: 0;
+}
+
+#quarto-content .callout .callout-header {
+  background: transparent;
+  border: 0;
+}
+
+#quarto-content .callout .callout-icon-container {
+  display: none;
+}
+
+#quarto-content .callout .callout-title-container {
+  color: var(--ink);
+  font-weight: 700;
+  opacity: 1;
+}
+
+#quarto-content .callout .callout-body-container {
+  border-top: 0;
+}
+
+#quarto-content .callout p {
+  text-indent: 0;
+}
+
+
+/* =========================================================
+   REFERENCIAS Y NOTAS AL PIE
+   ========================================================= */
+
+#quarto-content #refs .csl-entry {
+  margin: 0 0 0.4em;
+}
+
+#quarto-content #quarto-appendix {
+  margin: 2.5em 0 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Regla corta sobre las notas, como en LaTeX; el título queda solo para lectores de pantalla */
+#quarto-content .footnotes::before {
+  content: "";
+  display: block;
+  width: 33%;
+  margin-bottom: 0.8em;
+  border-top: 0.5px solid var(--ink);
+}
+
+#quarto-content #quarto-appendix .footnotes > h2 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+#quarto-content .footnotes {
+  font-size: 0.9em;
+}
+
+#quarto-content .footnotes ol {
+  padding-left: 1.5em;
+}
+
+#quarto-content .footnote-back {
+  display: none;
+}
+
+
+/* =========================================================
+   MÓVIL
+   ========================================================= */
+
+@media (max-width: 800px) {
+
+  #quarto-content {
+    width: 100% !important;
+    min-height: 0;
+    margin: 0 !important;
+    padding: 2rem 1.25rem 3.5rem !important;
+    box-shadow: none;
+    font-size: 1.05rem;
+  }
+
+  #quarto-content :is(p, ul, ol, .abstract) {
+    text-align: left;
+  }
+
+  #quarto-content #title-block-header .abstract {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #quarto-content blockquote,
+  #quarto-content blockquote.blockquote {
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+  }
+
+  #quarto-content table {
+    font-size: 0.9em;
+  }
+}
+
+
+/* =========================================================
+   IMPRESIÓN / GUARDAR COMO PDF (hoja carta, márgenes de 1 in)
+   ========================================================= */
+
+@page {
+  size: letter;
+  margin: 1in;
+}
+
+@media print {
+
+  body {
+    background: #ffffff !important;
+  }
+
+  #quarto-header,
+  footer.footer,
+  #data-background,
+  #reading-progress,
+  #back-to-top,
+  .code-copy-button {
+    display: none !important;
+  }
+
+  #quarto-content {
+    width: auto !important;
+    max-width: none !important;
+    min-height: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none;
+    font-size: 12pt;
+  }
+
+  #quarto-content :is(h1, h2, h3, h4, h5, h6) {
+    break-after: avoid;
+  }
+
+  #quarto-content :is(figure, table, pre, .theorem) {
+    break-inside: avoid;
+  }
+}

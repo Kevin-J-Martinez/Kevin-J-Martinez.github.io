@@ -1,0 +1,8 @@
+format:
+  html:
+    css: ../latex.css
+    page-layout: custom
+    body-classes: latex-paper
+    toc: false
+    number-sections: true
+    date-format: "MMMM D, YYYY"

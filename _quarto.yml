@@ -1,23 +1,21 @@
 project:
   type: website
   output-dir: docs
-
-resources:
-  - assets/effects.js
-  - assets/team-leader.png
+  resources:
+    - assets/effects.js
+    - assets/team-leader.png
+    - fonts/*
 
 website:
   title: "K. J. Martinez"
   description: "Economics, data, and research — K.J. Martinez"
   site-url: ""
   page-navigation: true
-
   draft-mode: gone
 
   navbar:
     background: "#000000"
     foreground: "#ffffff"
-
     left:
       - href: index.qmd
         text: Home
@@ -35,24 +33,34 @@ website:
 format:
   html:
     lang: en
+
     theme:
       - Lux
       - brand
+
     favicon: assets/team-leader.png
+
     mainfont: "Source Serif 4"
     fontsize: 1rem
     monofont: "IBM Plex Mono"
     linkcolor: "#090D11"
-    css: styles.css
+
+    css:
+      - styles.css
+
+
     toc: true
     toc-title: "On this page"
     smooth-scroll: true
+
+    html-math-method: mathjax
 
     include-in-header:
       - text: |
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
           <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+      - fonts-head.html
 
     include-after-body:
       - text: |

@@ -6,21 +6,18 @@ categories:
   - essay
   - economics
   - aleye
+subtitle: "A scratch page for checking the paper style"
 author: "K.J. Martinez"
-description: "este articulo presenta una exploración sencilla ."
+abstract: "Placeholder abstract, to check the centred title block, the narrower abstract column and the justified text with hyphenation."
+number-sections: true
 ---
 
 
-
-
-
-
-
-## 1. Texto y formato básico
+# Texto y formato básico
  
 Este es un párrafo con **negrita**, *cursiva*, __negrita__ y _cursiva_, ~~texto tachado~~ y `código en línea`.
  
-También puede haber [enlaces](https://es.wikipedia.org/wiki/Markdown) y texto con subíndices como H~2~O o superíndices como X^2^ (dependiendo del motor de renderizado).
+También puede haber [enlaces](https://es.wikipedia.org/wiki/Markdown) y texto con subíndices como H~2~O o superíndices como X^2^ (dependiendo del motor de renderizado).Cuando establecemos un modelo, aceptamos que este no es el verdadero proceso generador de datos es una aproximación que buscamos acercar, por ello cualquier cosa que salga del modelo tendrá esa premisa consigo (Hüllermeier y Waegeman, 2021, p. 2).[1] Lo que significa que lo que buscamos medir nunca será lo que midamos.
  
 > Esto es una cita en bloque.
 > Puede tener varias líneas
@@ -28,27 +25,30 @@ También puede haber [enlaces](https://es.wikipedia.org/wiki/Markdown) y texto c
  
 ---
  
-## 2. Listas
+#  Listas
  
-### Lista no ordenada
+## Lista no ordenada
 - Elemento uno
 - Elemento dos
   - Sub-elemento 2.1
   - Sub-elemento 2.2
 - Elemento tres
-### Lista ordenada
+
+## Lista ordenada
 1. Primer paso
 2. Segundo paso
 3. Tercer paso
    1. Sub-paso 3.1
    2. Sub-paso 3.2
-### Lista de tareas
+
+## Lista de tareas
 - [x] Tarea completada
 - [ ] Tarea pendiente
 - [ ] Otra tarea pendiente
+
 ---
  
-## 3. Tablas
+# Tablas
  
 | Variable | Símbolo | Unidad | Valor |
 |----------|:-------:|:------:|------:|
@@ -57,6 +57,8 @@ También puede haber [enlaces](https://es.wikipedia.org/wiki/Markdown) y texto c
 | Número de Avogadro | $N_A$ | mol⁻¹ | $6.022 \times 10^{23}$ |
 | Carga del electrón | $e$ | C | $1.602 \times 10^{-19}$ |
  
+ ---
+
 **Tabla con alineación mixta:**
  
 | Izquierda | Centro | Derecha |
@@ -66,12 +68,12 @@ También puede haber [enlaces](https://es.wikipedia.org/wiki/Markdown) y texto c
  
 ---
  
-## 4. Fórmulas LaTeX
+# Fórmulas LaTeX
  
-### En línea
+## En línea
 La ecuación de Einstein es $E = mc^2$, y la fórmula cuadrática es $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$.
  
-### En bloque
+## En bloque
  
 $$
 \int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}
@@ -100,7 +102,7 @@ $$
  
 ---
  
-## 5. Código
+#  Código
  
 Código en línea: `const x = 42;`
  
@@ -133,13 +135,13 @@ ORDER BY total DESC;
  
 ---
  
-## 6. Imágenes
+# Imágenes
  
 ![Imagen de ejemplo](https://via.placeholder.com/600x300.png?text=Imagen+de+prueba)
  
 ---
  
-## 7. Diagramas (Mermaid)
+#. Diagramas (Mermaid)
  
 ```mermaid
 graph TD
@@ -170,7 +172,7 @@ pie title Distribución de uso
  
 ---
  
-## 8. Líneas horizontales, notas al pie y detalles
+# Líneas horizontales, notas al pie y detalles
  
 Texto con nota al pie[^1].
  
@@ -183,7 +185,7 @@ Contenido oculto dentro de un bloque colapsable, útil para probar interactivida
 </details>
 ---
  
-## 9. Caracteres especiales y emojis
+# Caracteres especiales y emojis
  
 Símbolos: © ® ™ § ¶ † ‡ • … « » “comillas” 'apóstrofe'
  

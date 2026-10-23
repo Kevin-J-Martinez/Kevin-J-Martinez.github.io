@@ -15,7 +15,9 @@ listing:
 
 <div class="section-content">
 
-<p class="large-text">Poems, I love write them, It's something for get out of economics sometimes✍️</p>
+<p class="large-text">Poems, I love write them, It's something for get out of economics sometimes✍️.</p>
+<p class="hero-description">
+☢️ Please note this section could be a bit unprofessional, however I hope to this don't affect your idea of me.</p>
 
 #### Why do I write poems?
 
